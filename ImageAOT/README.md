@@ -7,6 +7,8 @@ Window icon (system menu) has additional entries:
 * `Open...` - Opens a dialog for selecting a file to open.
 * Recent files - Those are saved in registry (`HKCU\SOFTWARE\SaVlad\IOT\Recent`) along with window location and size.
 
+Last open file dialog directory is saved in registry (`HKCU\SOFTWARE\SaVlad\IOT`), so it remembers last location.
+
 File is saved to recents on window close.
 
 Only valid (file exists) entries are loaded to menu.
