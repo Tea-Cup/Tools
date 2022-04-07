@@ -69,6 +69,8 @@ namespace Tools {
 				));
 			}
 
+			if (options.Count == 0) return;
+
 			if (CommandLine.GetRestOption(plugin.GetType()) is RestOptionAttribute rest) {
 				usage.Add($"[...{rest.Name}]");
 				options.Add(("", $"...{rest.Name}", rest.Description));
