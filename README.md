@@ -5,7 +5,7 @@ Set of tool aliases I'm too bothered to remember.
 ## How to use
 
 - Put it in `%PATH%`, rename it something like `t.exe`
-- Put [ffmpeg.exe](https://www.ffmpeg.org/), [youtube-dl.exe](http://ytdl-org.github.io/youtube-dl/) and [iot.exe](https://github.com/Tea-Cup/Tools/tree/main/ImageAOT) nearby.
+- Put [ffmpeg.exe](https://www.ffmpeg.org/), [youtube-dl.exe](http://ytdl-org.github.io/youtube-dl/) and [iot.exe](https://github.com/Tea-Cup/Tools/releases/latest) nearby.
 - If needed, create a [t.config.ini](https://github.com/Tea-Cup/Tools/blob/main/Main/config.ini) settings file in the same folder and adjust paths.
 - To download youtube audio, execute `t yt -a https://www.youtube.com/watch?v=dQw4w9WgXcQ`
 - To use (some of) ffmpeg, execute `t ff "Rick Astley - Never Gonna Give You Up (Official Music Video)-dQw4w9WgXcQ.opus" --filter="compand,showwavespic=s=640x120" --format="png"`
