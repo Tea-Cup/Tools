@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Main": {
+      "commandName": "Project",
+      "commandLineArgs": "yt -a foo bar \"xyz leo\""
+    }
+  }
+}
